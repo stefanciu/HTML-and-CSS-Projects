@@ -1,0 +1,84 @@
+html {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    background-color: rgb(44, 233, 236);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section {
+    padding-top: 50px;
+    margin-top: 50;
+}
+
+.menu-container {
+    max-height: 340px;
+    margin: 0% auto;
+    color: blueviolet;
+}
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 0px auto;
+    background-color: bisque;
+}
+
+.menu {
+    color: aliceblue;
+    font: bold 12px/18px sans-serif;
+    text-align: center;
+    display: inline;
+    margin: 0% auto;
+    list-style: none;
+    text-decoration: none;
+}
+
+.menu li {
+    display: inline-block;
+    position: relative;
+    margin: 0% auto;
+    border: 2px solid green;
+    cursor: pointer;
+}
+
+.photo {
+    position: relative;
+    overflow: hidden;
+    border: 3px solid green;
+}
+
+.photo-container {
+    margin: 15px auto;
+    width: 300px;
+    height: 169px;
+}
+
+.photo-container img {
+    max-width: 100%;
+    width: 300px;
+    height: 169px;
+}
+
+.photo-overlay {
+    color: aliceblue;
+    position: absolute;
+    top: 0;
+    justify-content: center;
+    align-items: center;
+}
